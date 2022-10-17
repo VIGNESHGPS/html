@@ -1,0 +1,69 @@
+#top_head{
+    height: 90px auto;
+    width: auto ;
+    background-color: aqua;
+    text-align: center;
+    align-content: center;
+    padding:0 auto;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    
+    font-size: 18pt;
+    text-size-adjust: auto;
+    margin: 0 auto;}
+   #form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        align-content: center;
+        align-items: flex-start;
+        margin: 0 auto;
+        font-size: 16pt;
+        border-radius: 5%;
+        border: 2px;
+        border-style: solid;
+        border-color: black;
+        padding:5%;
+        background-color: rgba(127, 255, 212, 0.018);
+        flex-shrink: 0;
+    } 
+    .name{
+        
+        width: auto;
+        height: fit-content;
+        min-height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 auto;
+        font-size: 16pt;
+        flex-shrink: 0;
+    }
+    #formbody{
+        width: 100%;
+        height: 60%;
+        margin: auto;
+        display: grid;
+        font-size: 16pt;
+        grid-template-columns: 50% 50%;
+        flex-shrink: 0;
+    }
+    #head{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        font-size: 16pt;flex-shrink: 0;
+    }
+    .siderow{ height: 700px ;
+         width: 35%; 
+         background-color: blue;
+         float: left;
+        display: grid;
+        grid-template-rows: 20% 20% 20%;
+    
+    }
+    .youtub{
+        width:80%;
+        margin: 5%;
+        border-radius: 5%;
+    }
